@@ -6,7 +6,7 @@ print("로그인을 해주십시오")
 
 Login_Id = input("아이디>")
 
-if Login_Id in "love05uni":
+if Login_Id in "아이디 유출 방지":
     print("비밀 번호를 입력하십시오")
 else:
     print("다시시도 하십시오")
@@ -16,7 +16,7 @@ sleep(0.5)
 
 Login_PW = input("페스워드>")
 
-if Login_PW in "tjddus0422":
+if Login_PW in "비번 유출 방지":
     print("로그인 되었습니다!")
 else:
     print("다시시도 하십시오")
